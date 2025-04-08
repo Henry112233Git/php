@@ -1,0 +1,54 @@
+.php測試資訊 {
+    display: flex; /* 設定容器為彈性盒子布局（Flexbox），方便進行排版和對齊。 */
+    /*border: 1px solid red;*/ /* 設定邊框顏色為紅色，邊框寬度為1px，並使用實線，不過只是拿到測試調整區塊的內容做輔助。 */
+    width: 70%; /* 區塊寬度設為 70%。 */
+    margin: 0 auto; /* 設置垂直邊距為 0，水平邊距為自動，讓容器水平置中。 */
+    text-align: justify; /* 設定文字內容為左右對齊。 */
+    justify-content: center; /* Flexbox 屬性，用來水平方向對齊。 */
+    align-items: center; /* Flexbox 屬性，用來垂直方向對齊。 */
+    background-color: orange; /* 設定背景顏色為橘色。 */
+    flex-direction: column; /* 讓子元素垂直排列（保留段落換行） */
+}
+.explanation {
+    display: flex; /* 設定容器為彈性盒子布局（Flexbox），方便進行排版和對齊。 */
+    /*border: 1px solid red;*/ /* 設定邊框顏色為紅色，邊框寬度為1px，並使用實線。 */
+    width: 70%; /* 設定容器的寬度為其父元素的 70%。 */
+    margin: 0 auto; /* 設置垂直邊距為 0，水平邊距為自動，讓容器水平置中。 */
+    text-align: justify; /* 設定文字內容為左右兩端對齊。 */
+    justify-content: center; /* Flexbox 屬性，讓子元素在水平方向居中排列。 */
+    align-items: center; /* Flexbox 屬性，讓子元素在垂直方向居中排列。 */
+    background-color: antiquewhite; /* 設定背景顏色為古白色（淡米色）。 */
+    color: darkblue; /* 設定文字顏色為深藍色。 */
+}
+/*
+    說明：
+
+    display: flex; 設定 Flexbox 布局，讓子元素的排列更有彈性，並且便於控制水平及垂直的對齊方式。
+
+    border: 1px solid red; 邊框樣式是紅色實線，寬度為 1px，用於清楚地標示元素的範圍，方便視覺上的排版確認。
+
+    width: 70%; 控制元素寬度為其父容器的 70%，避免元素占用過多空間，讓版面看起來更加整潔。
+
+    margin: 0 auto; 垂直方向的邊距設定為 0，水平方向則自動調整，讓容器在頁面中居中顯示。
+
+    text-align: justify; 文字在行內兩端對齊，提升段落排版的美觀性。
+
+    justify-content: center; 水平方向讓子元素居中對齊，在 Flexbox 中是非常常用的屬性。
+
+    align-items: center; 垂直方向讓子元素居中對齊，結合 justify-content 可使子元素完全居中。
+
+    background-color: antiquewhite; 賦予 explanation 元素一個淡米色背景，增強版面整體視覺效果。
+
+    color: darkblue; 設定文字顏色為深藍色，方便與背景形成視覺上的對比。
+*/
+.php說明 {
+    display: flex; /* 設定容器為彈性盒子布局（Flexbox），方便進行排版和對齊。 */
+    /*border: 1px solid red;*/ /* 設定邊框顏色為紅色，邊框寬度為1px，並使用實線，不過只是拿到測試調整區塊的內容做輔助。 */
+    width: 70%; /* 區塊寬度設為 70%。 */
+    margin: 0 auto; /* 設置垂直邊距為 0，水平邊距為自動，讓容器水平置中。 */
+    text-align: justify; /* 設定文字內容為左右對齊。 */
+    justify-content: center; /* Flexbox 屬性，用來水平方向對齊。 */
+    align-items: center; /* Flexbox 屬性，用來垂直方向對齊。 */
+    background-color: lightblue; /* 設定背景顏色為淡藍色。 */
+    flex-direction: column; /* 讓子元素垂直排列（保留段落換行） */
+}
