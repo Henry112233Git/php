@@ -3,14 +3,6 @@
         <meta charset="utf-8">
         <title>登入系統</title>
         <link rel="stylesheet" href="套用.css">
-        <style>
-            fieldset {
-                margin-bottom: 15px;
-            }
-            legend {
-                text-align: center;
-            }
-        </style>
     </head>
     <body>
         <div class="explanation">
@@ -22,32 +14,6 @@
                    密碼：<input type=password name="pwd"></p>
                 <center><input type=submit value="登入"> <input type=reset value="清除"></center>
             </form>
-            <center>
-            <fieldset>
-                <legend>個人資料(以下已禁止開放填寫)</legend>
-                <label>性別（圈選）：</label>
-                <input type="radio" id="male" name="gender-radio" value="male" disabled style="cursor: not-allowed;">
-                <label for="male">男性</label>
-                <input type="radio" id="female" name="gender-radio" value="female" disabled style="cursor: not-allowed;">
-                <label for="female">女性</label>
-                <input type="radio" id="other" name="gender-radio" value="other" disabled style="cursor: not-allowed;">
-                <label for="other">其他</label>
-                <table>
-                    <tr>
-                        <td><label for="email">電子郵件：</label></td>
-                        <td><input type="email" id="email" name="email" readonly disabled style="cursor: not-allowed;"></td>
-                    </tr>
-                </table>
-                <label for="browser">選擇瀏覽器：</label>
-                <input list="browsers" id="browser" name="browser" readonly disabled style="cursor: not-allowed;">
-                <datalist id="browsers">
-                    <option value="Chrome">
-                    <option value="Firefox">
-                    <option value="Safari">
-                    <option value="Edge">
-                </datalist>
-            </fieldset>
-            </center>      
         </div>
         <div class=php說明>
             <p><h2>範例說明</h2></p>
