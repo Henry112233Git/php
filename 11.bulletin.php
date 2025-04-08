@@ -1,12 +1,5 @@
 <title>佈告欄</title>
 <link rel="stylesheet" href="套用.css">
-<style>
-    tr td {
-        overflow: hidden;
-        text-overflow: ellipsis; /* 超過字數部分用...表示 */
-        text-align: center;
-    }
-</style>
 <div class="explanation">
     <h1>這是PHP的佈告欄</h1>
 </div>
@@ -45,15 +38,6 @@
 </p>
 </center>
 </div>
-<script>
-  document.querySelectorAll("tr td").forEach(cell => {
-    const limit = 20; // 字數限制
-    const text = cell.textContent;
-    if (text.length > limit) {
-      cell.textContent = text.substring(0, limit) + "···";
-    }
-  });
-</script>
 <div class=php說明>
     <p><h2>範例說明</h2></p>
     <center>
