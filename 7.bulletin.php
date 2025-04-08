@@ -1,12 +1,5 @@
 <title>佈告欄</title>
 <link rel="stylesheet" href="套用.css">
-<style>
-    tr td {
-        overflow: hidden;
-        text-overflow: ellipsis; /* 超過字數部分用...表示 */
-        text-align: center;
-    }
-</style>
 <div class="explanation">
     <h1>這是PHP的佈告欄</h1>
 </div>
@@ -36,15 +29,6 @@
 </p>
 </center>
 </div>
-<script>
-  document.querySelectorAll("tr td").forEach(cell => {
-    const limit = 20; // 字數限制
-    const text = cell.textContent;
-    if (text.length > limit) {
-      cell.textContent = text.substring(0, limit) + "···";
-    }
-  });
-</script>
 <div class=php說明>
     <p><h2>範例說明</h2></p>
     1.一般在製作佈告欄都會使用三種語法，用&lt;table&gt;組成架構，&lt;tr&gt;&lt;td&gt;或&lt;th&gt;製作表格欄位<br>
