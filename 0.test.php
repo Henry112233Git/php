@@ -1,7 +1,8 @@
+<!--套用css檔案來改造網站的佈置-->
 <link rel="stylesheet" href="套用.css">
 <!--包圍文字說明的區塊-->
 <div class="explanation">
-    <h1>這是PHP的詳細資訊</h1>
+    <h1>這是PHP的詳細資訊</h1> <!--標題-->
 </div>
 <!--包圍PHP的詳細資訊區塊-->
 <div class="php測試資訊">
