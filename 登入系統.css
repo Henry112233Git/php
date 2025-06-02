@@ -1,0 +1,53 @@
+/*登入畫面css*/
+/* 設定整個模態視窗的樣式 */
+.modal {
+    display: none;
+    /*position: fixed;*/
+    position: absolute;
+    top: 30%; /* 調整距離頂部的高度 */
+    left: 50%; /* 設定水平居中 */
+    transform: translate(-50%, -30%); /* 精確居中對齊 */
+    z-index: 1;
+    right: 50px;
+    /*top: 50px;*/
+    width: 300px;
+    padding: 20px;
+    background-color: gray; /* 設定背景為灰色 */
+    color: white; /* 文字顏色 */
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    text-align: center; /* 讓內容置中 */
+}
+
+/* 標題樣式 */
+.login-title {
+    font-size: 24px; /* 設定字體大小 */
+    font-weight: bold; /* 設定字體加粗 */
+    margin-bottom: 15px; /* 增加與表單的間距 */
+    color: white; /* 讓標題跟背景對比更好 */
+}
+
+/* 登入按鈕樣式 */
+.login-btn {
+    color: white; /* 設定字體顏色為黑色 */
+    font-size: 20px; /* 字體大小 */
+    text-align: center; /* 文字置中 */
+    padding: 10px; /* 增加內邊距 */
+    display: inline-block; /* 讓它變成按鈕風格 */
+    border-radius: 5px; /* 設定圓角 */
+    cursor: pointer;
+}
+
+/* 關閉按鈕樣式 */
+.close-btn {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.close-btn:hover {
+    transform: scale(1.2); /* 放大效果 */
+    color: red; /* 滑鼠移上去變紅 */
+}

@@ -1,0 +1,50 @@
+      .nav {
+        height: 50px;
+        display: flex;
+        text-align: center;
+        justify-content: center; /* 水平置中 */
+        align-items: center; /* 垂直置中 */
+        background-color: #333;
+        width: 70%;
+        margin: 0 auto;
+      }
+      .nav ul {
+        list-style-type: none; /* 不顯示標籤 */
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* 隱藏超過區塊邊界 */
+        background-color: #333;
+      }
+      .nav li {
+        float: left; /* 列表改為橫向，向左靠齊 */
+      }
+      .nav li a {
+        display: block;
+        color: white;
+        text-align: center; /* 字體置中 */
+        padding: 14px 16px; /* 設定距離 */
+        text-decoration: none; /* 移除超連結底線 */
+      }
+      .nav li a:hover { /* 滑鼠拖曳至超連結所顯示的顏色 */
+        background-color: #555;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;   /*使用block呈現上下排列*/
+      }
+      li.dropdown:hover{
+        background-color: #333;  /*設定背景顏色*/
+      }
+      .dropdown-content {  /*設定下拉選單內容格式*/
+        display: none;
+        position: absolute;
+        background-color: #333;
+        min-width: 160px;
+        z-index: 1;
+      }
+      .dropdown-content a {/*設定下拉選單連結內容格式*/
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
