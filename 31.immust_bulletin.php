@@ -87,6 +87,7 @@
           <script src="登入系統.js"></script>
       </header>
   <main>
+      <!--選單專區-->
         <div class="nav">
       <ul>
         <li><a href="#">首頁</a></li>
@@ -101,11 +102,13 @@
         <li><a href="#about">相關資訊</a></li>
       </ul>
         </div>
+      <!--標語-->
         <div class="explanation">
             <h1>歡迎來到裕鴻的官方網站</h1>
         </div>
         </div>
     <center>
+    <!--圖片輪轉-->
     <div class="slider">
       <div class="flexslider">
             <ul class="slides">
@@ -116,6 +119,7 @@
       </div>
     </div>
     </center>
+    <!--佈告欄-->
         <div class="news">
            <center><h1 style="color:Gray">最新公告</h1></center>
             <?php
@@ -140,10 +144,12 @@
                 echo "</table>";
             ?>
         </div>
+      <!--說明-->
         <div class=php說明>
             <p><h2>說明</h2></p>
             歡迎各位來到我們的官方網站，這是我在整學期所學到的php語法，歡迎大家來參觀<p></p>
         </div>
+      <!--系所簡介-->
     <div class="banner" id="introduction">
       <h1>系所簡介</h1>
       <h3>關於資訊管理系</h3>
@@ -152,6 +158,7 @@
       <br>還結合了人工智慧的應用，讓你生活中遇到無處不在的資訊，提升便利性
     </div>
     <div class="faculty" id="faculty">
+    <!--教師簡介-->
       <h2>師資介紹</h2>
             <div class="container">
                 <a class="teacher" href="">
@@ -168,6 +175,7 @@
                 </a>        
             </div>
   </div>
+<!--聯絡資訊-->
   <div class="contact" id="about">
     <h2>聯絡資訊</h2>
     <div class="infos">
